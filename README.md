@@ -1,36 +1,36 @@
 # Fivem-Scripts
 
-Repository dedicat exclusiv scripturilor FiveM:
-- standalone (fara framework)
-- Qbox (compatibile cu framework-ul Qbox)
+This repository is dedicated exclusively to FiveM scripts:
+- standalone (no framework)
+- Qbox (compatible with the Qbox framework)
 
-## Structura recomandata
+## Recommended Structure
 
 ```text
 standalone/
 qbox/
 ```
 
-Poti organiza fiecare resursa in folderul potrivit, de exemplu:
+You can organize each resource in the appropriate folder, for example:
 
 ```text
 standalone/my_resource/
 qbox/qbx_my_resource/
 ```
 
-## Reguli pentru acest repo
+## Repository Rules
 
-- Nu adauga scripturi pentru alte framework-uri (ESX, QBCore clasic etc.) aici.
-- Pastreaza fiecare script ca resource separat (cu propriul `fxmanifest.lua`).
-- Foloseste denumiri clare, orientate pe functionalitate.
+- Do not add scripts for other frameworks here (ESX, classic QBCore, etc.).
+- Keep each script as a separate resource (with its own `fxmanifest.lua`).
+- Use clear, function-oriented naming.
 
-## Commit convention (simplu)
+## Commit Convention (Simple)
 
-- `feat:` functionalitate noua
+- `feat:` new functionality
 - `fix:` bug fix
-- `chore:` mentenanta/configurare
+- `chore:` maintenance/configuration
 
-Exemplu:
+Example:
 
 ```text
 feat(qbox): add banking helper export
