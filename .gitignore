@@ -1,0 +1,28 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+
+# Logs / temp
+*.log
+*.tmp
+*.bak
+
+# Node artifacts (daca unele resurse au UI/NUI)
+node_modules/
+dist/
+build/
+pnpm-lock.yaml
+yarn.lock
+package-lock.json
+
+# Lua tooling
+.luarc.json
+.styluaignore
+
+# Local env/config
+.env
+.env.*
+*.local
